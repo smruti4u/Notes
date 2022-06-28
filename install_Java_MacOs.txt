@@ -1,0 +1,13 @@
+1-Install JDK Latest from oracle Site
+2-Once Installation Is Done Set JAVA_HOME environment variable
+
+	1- Run This Command To get Java Home Location
+		$ /usr/libexec/java_home 
+
+	2- ls -a
+	3- touch .bash_profile (if it does not exist)
+	4- open .bash_profile
+      5- Add This Line at the end of .bash_profile page
+		export JAVA_HOME=$<java home location from point 1>
+	6- source ~/.bash_profile - this refreshes the environment variable
+	7- echo JAVA_Home - Should display java home location
